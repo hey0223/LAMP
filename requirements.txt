@@ -1,0 +1,31 @@
+# Core
+numpy<2.0
+pandas
+torch
+matplotlib
+scipy
+
+# RL / Gym
+gymnasium
+pygame
+
+# Config / Econ
+omegaconf
+quantecon
+
+# Networking / Logging
+aiohttp
+wandb
+tensorboardX
+
+# NLP / Transformers
+transformers
+sentencepiece
+accelerate
+
+# Performance / Math
+tbb
+
+# Vector search
+# faiss-gpu  # Use this if you have a GPU
+faiss-cpu
