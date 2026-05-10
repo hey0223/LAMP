@@ -410,8 +410,8 @@ class Household(BaseEntity):
         """
         # Format private observation for better readability
         private_obs_formatted = f"""
-  • Personal productivity (e): {private_observation[0]:.4f}
-  • Personal wealth: {private_observation[1]:.4f}"""
+          • Personal productivity (e): {private_observation[0]:.4f}
+          • Personal wealth: {private_observation[1]:.4f}"""
         
         recent_long_term_text = recent_long_term_news if recent_long_term_news else "None"
         
