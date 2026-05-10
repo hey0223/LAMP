@@ -12,8 +12,6 @@ from uuid import uuid4
 import aiohttp
 import requests
 
-
-# Qiniu OpenAI-compatible API configuration
 API_URL = os.getenv("QINIU_API_URL", "")
 MODEL_NAME = os.getenv("QINIU_MODEL_NAME", "")
 API_KEY = os.getenv("QINIU_API_KEY", "")
