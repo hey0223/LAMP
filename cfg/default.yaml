@@ -50,7 +50,7 @@ Trainer:
   epoch_length: 500
   update_cycles:  10
   target_update_interval: 1
-  display_interval: 1 #1
+  display_interval: 1 
   batch_size: 128
   gamma: 0.975 
   tau:  5e-3
@@ -72,7 +72,7 @@ Trainer:
   embed_dim: 5
   use_llm_in_eval: False
   threshold: 0.4
-  long_term_step_size: 60
+  long_term_step_size: 40
   short_top_k: 2
   long_top_k: 5
   retrieval_top_k: 2
